@@ -2,15 +2,26 @@
 
 Open DStroke is a Windows keyboard and mouse overlay for presentations, recordings, and demos. It displays input locally without storing or sending pressed keys.
 
+[![Release](https://img.shields.io/github/v/release/DipeshGoud/OpenDStroke?color=007acc&logo=github)](https://github.com/DipeshGoud/OpenDStroke/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20(64--bit)-blue)](https://github.com/DipeshGoud/OpenDStroke/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Built and maintained by [Dipesh Goud (@DipeshGoud)](https://github.com/DipeshGoud). The official builds are free.
 
-## Install on Windows
+## Download & Install on Windows
 
-1. Open **dist\OpenDStroke-Setup.exe** on 64-bit Windows 10 or 11.
+Download the latest release directly from the **[Releases Page](https://github.com/DipeshGoud/OpenDStroke/releases/latest)**:
+
+- 📦 **[Download Installer (OpenDStroke-Setup.exe)](https://github.com/DipeshGoud/OpenDStroke/releases/latest/download/OpenDStroke-Setup.exe)** – Recommended for most users. Installs to your user profile (no administrator rights needed) and adds Start menu and optional desktop shortcuts.
+- 🚀 **[Download Portable (OpenDStroke.exe)](https://github.com/DipeshGoud/OpenDStroke/releases/latest/download/OpenDStroke.exe)** – Single standalone executable, no installation needed. Run from any folder or USB drive.
+
+### Setup Instructions
+
+1. Run **OpenDStroke-Setup.exe** on 64-bit Windows 10 or 11.
 2. Follow setup, then open **Open DStroke** from the Start menu. Setup installs for the current user and offers an optional desktop shortcut.
 3. To remove it, use **Windows Settings → Apps → Installed apps → Open DStroke → Uninstall**, or search for **Uninstall Open DStroke** in Start. The uninstaller closes the running app and removes its shortcuts. It keeps your preferences for a future reinstall.
 
-Use **dist\OpenDStroke.exe** for a portable launch. Both builds bundle their Python and Tk runtimes. Launching again brings the existing dashboard forward.
+For portable use, simply run **OpenDStroke.exe**. Both builds bundle their Python and Tk runtimes. Launching again brings the existing dashboard forward.
 
 ## Use the overlay
 

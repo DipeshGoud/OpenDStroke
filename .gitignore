@@ -5,3 +5,4 @@ dist/
 *.log
 /dashboard_preview.png
 /styles_preview.png
+build_artifacts/
